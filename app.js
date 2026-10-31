@@ -413,6 +413,58 @@ function advanceGw() {
   toast(`Now on gameweek ${state.currentGw}`);
 }
 
+// ---------- In-page dialogs ----------
+// Some embeds block confirm(), prompt() and downloads, so the game uses its own.
+
+function openModal(html) {
+  const modal = $('#modal');
+  modal.innerHTML = `<div class="modal-box" role="dialog" aria-modal="true">${html}</div>`;
+  modal.hidden = false;
+  return modal;
+}
+
+function closeModal() {
+  $('#modal').hidden = true;
+  $('#modal').innerHTML = '';
+}
+
+// Resolves true (or the typed text when `value` is given) on OK, null on cancel.
+function ask(message, { okText = 'OK', danger = false, value } = {}) {
+  return new Promise(resolve => {
+    const modal = openModal(`<p>${esc(message)}</p>
+      ${value !== undefined ? `<input id="modal-input" maxlength="24" value="${esc(value)}">` : ''}
+      <div class="row end"><button data-modal="cancel">Cancel</button>
+      <button data-modal="ok" class="${danger ? 'danger-fill' : 'primary'}">${esc(okText)}</button></div>`);
+    const input = $('#modal-input');
+    if (input) { input.focus(); input.select(); }
+    modal.onclick = e => {
+      const b = e.target.closest('[data-modal]');
+      if (!b && e.target !== modal) return;
+      closeModal();
+      resolve(b && b.dataset.modal === 'ok' ? (input ? input.value : true) : null);
+    };
+  });
+}
+
+// Shows a file's text with Download and Copy, so it works even where downloads are blocked.
+function showFile(name, text, type) {
+  const modal = openModal(`<h2>${esc(name)}</h2>
+    <textarea id="modal-text" rows="8" readonly>${esc(text)}</textarea>
+    <div class="row wrap end"><button data-modal="download">Download</button>
+    <button data-modal="copy" class="primary">Copy</button><button data-modal="close">Close</button></div>`);
+  modal.onclick = e => {
+    const b = e.target.closest('[data-modal]');
+    if (!b) { if (e.target === modal) closeModal(); return; }
+    if (b.dataset.modal === 'download') download(name, text, type);
+    else if (b.dataset.modal === 'copy') {
+      navigator.clipboard.writeText(text).then(() => toast('Copied'), () => {
+        $('#modal-text').select();
+        toast('Select all and copy');
+      });
+    } else closeModal();
+  };
+}
+
 // ---------- League file export / import ----------
 
 function download(name, text, type) {
@@ -706,11 +758,15 @@ function leagueView(m) {
   </section>
   <section class="card">
     <h2>Share</h2>
-    <p class="muted small">Export the whole league to a file, send it to a friend, and they import it on their device. Importing adds or updates managers and results.</p>
+    <p class="muted small">Export the whole league, send the file (or copied text) to a friend, and they import it on their device. Importing adds or updates managers and results.</p>
     <div class="row wrap">
       <button data-action="export">Export league file</button>
       <label class="filebtn">Import league file<input type="file" accept=".json,application/json" data-action="league-file" hidden></label>
     </div>
+    <form data-form="import-league" class="stack paste-league">
+      <textarea name="json" rows="2" placeholder="…or paste a copied league file here"></textarea>
+      <button>Import pasted league</button>
+    </form>
     <p class="muted small">${DATA.players.length} players · ${DATA.players.filter(p => !p.verified).length} marked unverified · data from data/players.json</p>
     <button class="danger small-btn" data-action="reset">Reset everything</button>
   </section>`;
@@ -748,8 +804,9 @@ function onClick(e) {
     case 'bench-up': moveBench(m, id, -1); break;
     case 'bench-down': moveBench(m, id, 1); break;
     case 'advance':
-      if (!confirm(`Finish GW ${state.currentGw} and start GW ${state.currentGw + 1}? Lineups for GW ${state.currentGw} will be frozen.`)) return;
-      return advanceGw();
+      ask(`Finish GW ${state.currentGw} and start GW ${state.currentGw + 1}? Lineups for GW ${state.currentGw} will be frozen.`,
+        { okText: `Start GW ${state.currentGw + 1}` }).then(ok => ok && advanceGw());
+      return;
     case 'load-stats': {
       const gw = Number(document.querySelector('[name=gw]').value);
       fetch(`data/stats_gw${gw}.csv`, { cache: 'no-cache' })
@@ -758,35 +815,48 @@ function onClick(e) {
         .catch(() => toast(`Couldn't load data/stats_gw${gw}.csv`));
       return;
     }
-    case 'template': return download(`stats_gw${state.currentGw}.csv`, statsTemplate(), 'text/csv');
+    case 'template': return showFile(`stats_gw${state.currentGw}.csv`, statsTemplate(), 'text/csv');
     case 'delete-results':
-      if (!confirm(`Delete GW ${el.dataset.gw} results?`)) return;
-      delete state.results[el.dataset.gw];
-      ui.resultsGw = null;
-      save();
-      break;
+      ask(`Delete GW ${el.dataset.gw} results?`, { okText: 'Delete', danger: true }).then(ok => {
+        if (!ok) return;
+        delete state.results[el.dataset.gw];
+        ui.resultsGw = null;
+        save();
+        render();
+      });
+      return;
     case 'activate': state.activeId = id; save(); break;
     case 'rename': {
       const x = state.managers.find(y => y.id === id);
-      const name = prompt('New name', x.name);
-      if (name && name.trim()) { x.name = name.trim().slice(0, 24); save(); }
-      break;
+      ask('New name', { okText: 'Rename', value: x.name }).then(name => {
+        if (!name || !name.trim()) return;
+        x.name = name.trim().slice(0, 24);
+        save();
+        render();
+      });
+      return;
     }
     case 'delete-manager': {
       const x = state.managers.find(y => y.id === id);
-      if (!confirm(`Delete ${x.name} and their team?`)) return;
-      state.managers = state.managers.filter(y => y.id !== id);
-      if (state.activeId === id) state.activeId = state.managers[0]?.id || null;
-      save();
-      break;
+      ask(`Delete ${x.name} and their team?`, { okText: 'Delete', danger: true }).then(ok => {
+        if (!ok) return;
+        state.managers = state.managers.filter(y => y.id !== id);
+        if (state.activeId === id) state.activeId = state.managers[0]?.id || null;
+        save();
+        render();
+      });
+      return;
     }
     case 'export':
-      return download('j1-fantasy-league.json', JSON.stringify(state), 'application/json');
+      return showFile('j1-fantasy-league.json', JSON.stringify(state), 'application/json');
     case 'reset':
-      if (!confirm('Delete all managers and results on this device?')) return;
-      state = newState();
-      save();
-      break;
+      ask('Delete all managers and results on this device?', { okText: 'Delete all', danger: true }).then(ok => {
+        if (!ok) return;
+        state = newState();
+        save();
+        render();
+      });
+      return;
     default: return;
   }
   render();
@@ -807,6 +877,8 @@ function onSubmit(e) {
     ui.tab = 'squad';
     save();
     render();
+  } else if (form.dataset.form === 'import-league') {
+    importLeague(String(data.get('json')));
   } else if (form.dataset.form === 'import') {
     importStats(Number(data.get('gw')), String(data.get('csv')));
   }

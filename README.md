@@ -19,7 +19,7 @@ It also works on any static host, such as GitHub Pages or Netlify.
 1. **Squad**: pick 15 players (2 GK, 5 DEF, 5 MID, 3 FWD) with 100m, at most 3 from one club. Search by English or Japanese name, filter by club and position, and watch the bank. Changes are free until you press **Save squad**. After that you get 1 free transfer per gameweek, and each extra transfer costs 4 points. Undoing a transfer in the same gameweek gives it back.
 2. **Lineup**: tap a player, then tap another to swap them. Your starting XI needs 1 GK, 3–5 DEF, 2–5 MID and 1–3 FWD. Pick a captain, who scores double. Order the bench with ▲▼. If a starter plays 0 minutes, bench players come on in that order, as long as the formation stays legal (a GK only replaces a GK).
 3. **Results**: import the real stats for a gameweek (see below). The app scores every manager and shows a breakdown for each player. Results lock that gameweek. Press **Start GW N+1** to move on, which freezes everyone's lineup for the finished week.
-4. **League**: up to 8 managers on one device. Tap a row to switch manager. **Export league file** saves everything to one JSON file. A friend can **Import** it on their phone, and importing adds or updates managers and results.
+4. **League**: up to 8 managers on one device. Tap a row to switch manager. **Export league file** gives you the whole league as one JSON file to download or copy. A friend can import it on their phone by uploading the file or pasting the text, and importing adds or updates managers and results.
 
 ## Scoring
 

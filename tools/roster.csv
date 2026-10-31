@@ -1,0 +1,591 @@
+club,number,name,nameJa,position,role,verified,note
+KAS,1,Tomoki Hayakawa,早川友基,GK,star,1,
+KAS,21,Taiki Yamada,山田大樹,GK,fringe,1,
+KAS,29,Yuji Kajikawa,梶川裕嗣,GK,rotation,1,
+KAS,31,Haruto Fujii,藤井陽登,GK,fringe,1,
+KAS,2,Koki Anzai,安西幸輝,DEF,starter,1,
+KAS,3,Kim Tae-hyeon,キム・テヒョン,DEF,starter,1,
+KAS,4,Kaito Chida,千田海人,DEF,rotation,1,
+KAS,5,Ikuma Sekigawa,関川郁万,DEF,solid,1,
+KAS,7,Ryoya Ogawa,小川諒也,DEF,solid,1,
+KAS,19,Nao Omori,大森渚生,DEF,fringe,1,
+KAS,23,Keisuke Tsukui,津久井佳祐,DEF,rotation,1,
+KAS,25,Ryuta Koike,小池龍太,DEF,solid,1,
+KAS,28,Yugo Okawa,大川佑梧,DEF,fringe,1,
+KAS,35,Udemba Motosuna,元砂晏翔仁ウデンバ,DEF,fringe,1,English spelling of name is a best guess
+KAS,55,Naomichi Ueda,植田直通,DEF,starter,1,
+KAS,22,Kimito Nono,濃野公人,DEF,solid,0,In Wikipedia/press lists but missing from official club page
+KAS,6,Kento Misao,三竿健斗,MID,starter,1,
+KAS,8,Matheus Bueno,マテウス・ブエノ,MID,solid,1,
+KAS,10,Gaku Shibasaki,柴崎岳,MID,solid,1,
+KAS,14,Yuta Higuchi,樋口雄太,MID,starter,1,
+KAS,24,Haruki Hayashi,林晴己,MID,fringe,1,
+KAS,27,Yuta Matsumura,松村優太,MID,solid,1,
+KAS,71,Ryotaro Araki,荒木遼太郎,MID,solid,0,In Wikipedia/press lists but missing from official club page
+KAS,9,Leo Ceara,レオ・セアラ,FWD,star,1,
+KAS,11,Kyosuke Tagawa,田川亨介,FWD,rotation,1,
+KAS,17,Elber,エウベル,FWD,starter,1,
+KAS,18,Yan Matheus,ヤン・マテウス,FWD,rotation,1,
+KAS,30,Minato Yoshida,吉田湊海,FWD,fringe,1,English spelling of name is a best guess
+KAS,34,Homare Tokuda,徳田誉,FWD,rotation,1,
+KAS,40,Yuma Suzuki,鈴木優磨,FWD,star,1,
+KAS,77,Aleksandar Cavric,チャヴリッチ,FWD,starter,1,
+MIT,21,Shuhei Matsubara,松原修平,GK,rotation,1,
+MIT,27,Jakub Slowik,ヤクブ・スウォビィク,GK,starter,1,
+MIT,34,Konosuke Nishikawa,西川幸之介,GK,fringe,1,
+MIT,37,Kaito Kamiyama,上山海翔,GK,fringe,1,
+MIT,51,Ryusei Haruna,春名竜聖,GK,fringe,1,
+MIT,77,Uwa Bright Hayakawa,早川ウワブライト,GK,fringe,1,
+MIT,2,Malick Fofana,フォファナ・マリック,DEF,solid,1,
+MIT,4,Akinari Kawazura,河面旺成,DEF,starter,1,Loan from Nagoya (summer 2026)
+MIT,5,Hiroshi Iwasaki,岩﨑博,DEF,solid,1,
+MIT,15,Yasuki Kimoto,木本恭生,DEF,starter,1,
+MIT,17,Kenta Itakura,板倉健太,DEF,starter,1,
+MIT,,Ken Ushizawa,牛澤健,DEF,rotation,0,Official page shows two players with No.4; position not confirmed
+MIT,3,Koshi Osaki,大崎航詩,MID,solid,1,
+MIT,8,Chihiro Kato,加藤千尋,MID,solid,1,
+MIT,11,Yoshiki Torikai,鳥海芳樹,MID,starter,1,
+MIT,14,Mizuki Arai,新井瑞希,MID,solid,1,
+MIT,20,Yu Funabashi,舩橋佑,MID,solid,1,
+MIT,9,Ryo Nemoto,根本凌,FWD,solid,1,
+MIT,10,Arata Watanabe,渡邉新太,FWD,starter,1,
+MIT,18,Kotaro Uchino,内野航太郎,FWD,solid,1,
+MIT,22,Kaito Taniguchi,谷口海斗,FWD,solid,1,
+URA,1,Shusaku Nishikawa,西川周作,GK,starter,1,
+URA,23,Koki Fukui,福井光輝,GK,rotation,1,
+URA,44,Eisato Arai,新井栄聡,GK,fringe,1,English spelling of name is a best guess
+URA,2,Yuta Miyamoto,宮本優太,DEF,solid,1,
+URA,3,Danilo Boza,ダニーロ・ボザ,DEF,starter,1,
+URA,5,Kenta Nemoto,根本健太,DEF,starter,1,
+URA,6,Miki Yamane,山根視来,DEF,starter,1,
+URA,15,Kota Kudo,工藤孝太,DEF,rotation,1,
+URA,18,Kotaro Hayashi,林幸多郎,DEF,rotation,1,
+URA,26,Takuya Ogiwara,荻原拓也,DEF,starter,1,
+URA,28,Yoshimine Tanaka,田中義峯,DEF,fringe,1,English spelling of name is a best guess
+URA,32,Eiichi Katayama,片山瑛一,DEF,rotation,1,
+URA,40,Luka Didulica,ルカ・ディドゥリカ,DEF,rotation,0,Listed as DF in one source; position not confirmed
+URA,7,Takuro Kaneko,金子拓郎,MID,starter,1,
+URA,8,Kota Mizunuma,水沼宏太,MID,rotation,1,
+URA,10,Matheus Savio,マテウス・サヴィオ,MID,star,1,
+URA,11,Samuel Gustafson,サミュエル・グスタフソン,MID,starter,1,
+URA,13,Ryoma Watanabe,渡邊凌磨,MID,starter,1,
+URA,22,Kai Shibato,柴戸海,MID,rotation,1,
+URA,25,Kaito Yasui,安居海渡,MID,starter,1,
+URA,29,Yota Horiuchi,堀内陽太,MID,fringe,1,
+URA,33,Shudai Sasa,笹修大,MID,fringe,1,
+URA,37,Hayate Ueki,植木颯,MID,fringe,1,
+URA,39,Jumpei Hayakawa,早川隼平,MID,rotation,1,
+URA,17,Hiiro Komori,小森飛絢,FWD,starter,1,
+URA,36,Renji Hidano,肥田野蓮治,FWD,rotation,1,
+URA,42,Harumi Minamino,南野遥海,FWD,fringe,0,Also reported as a Gamba Osaka player on loan elsewhere
+URA,45,Ado Onaiwu,オナイウ阿道,FWD,solid,1,
+CHI,19,Jose Suarez,ホセ・スアレス,GK,starter,0,Only in early-2026 list / Wikipedia
+CHI,21,Hayato Usui,薄井覇斗,GK,fringe,0,Only in early-2026 list / Wikipedia
+CHI,23,Ryota Suzuki,鈴木椋大,GK,rotation,0,Only in early-2026 list / Wikipedia
+CHI,31,Takaya Okamoto,岡本享也,GK,fringe,1,
+CHI,3,Ryota Kuboniwa,久保庭良太,DEF,starter,0,Only in early-2026 list
+CHI,13,Daisuke Suzuki,鈴木大輔,DEF,solid,0,Only in early-2026 list
+CHI,15,Takayuki Mae,前貴之,DEF,solid,0,Only in early-2026 list
+CHI,22,Takahiro Iida,飯田貴敬,DEF,starter,1,Joined from Mito (summer 2026)
+CHI,24,Koji Toriumi,鳥海晃司,DEF,starter,0,Only in early-2026 list / Wikipedia
+CHI,26,Yuta Ueda,植田悠太,DEF,rotation,0,Only in early-2026 list / Wikipedia
+CHI,28,Takashi Kono,河野貴志,DEF,rotation,0,Only in early-2026 list / Wikipedia
+CHI,39,Rikuto Ishio,石尾陸登,DEF,fringe,0,Only in early-2026 list
+CHI,42,Zain Issaka,イサカ・ゼイン,DEF,rotation,0,Only in a fan-site list
+CHI,66,Daniel Hall,ダニエル・ホール,DEF,solid,1,
+CHI,67,Masaru Hidaka,日高大,DEF,starter,0,Only in a fan-site list
+CHI,2,Issei Takahashi,髙橋壱晟,MID,starter,1,
+CHI,8,Takumi Tsukui,津久井匠海,MID,starter,0,Only in early-2026 list
+CHI,27,Takuro Iwai,岩井琢朗,MID,rotation,0,Only in a fan-site list; position not confirmed
+CHI,32,Taiki Amagasa,天笠泰輝,MID,solid,0,Only in a fan-site list
+CHI,33,Yuma Igari,猪狩祐真,MID,solid,0,Only in a fan-site list
+CHI,37,Makoto Himeno,姫野誠,MID,solid,1,
+CHI,44,Manato Shinada,品田愛斗,MID,solid,0,Only in a fan-site list
+CHI,,Mateus Indio,マテウス・インディオ,MID,rotation,0,Only in Wikipedia; position not confirmed
+CHI,7,Kazuki Tanaka,田中和樹,FWD,solid,1,
+CHI,9,Hiroto Goya,呉屋大翔,FWD,solid,1,
+CHI,10,Carlinhos Junior,カルリーニョス・ジュニオ,FWD,starter,0,Only in early-2026 list
+CHI,20,Daichi Ishikawa,石川大地,FWD,solid,0,Only in early-2026 list
+CHI,30,Takumi Matsumura,松村拓実,FWD,rotation,1,
+CHI,45,Rocha,ホシャ,FWD,solid,1,English spelling of name is a best guess
+CHI,99,Erison,エリソン,FWD,starter,1,
+CHI,,Ken Yamura,矢村健,FWD,rotation,0,Only in Wikipedia
+KSW,1,Haruki Saruta,猿田遥己,GK,rotation,1,
+KSW,25,Kosuke Kojima,小島亨介,GK,starter,1,
+KSW,29,Kengo Nagai,永井堅梧,GK,fringe,1,
+KSW,46,Kenta Matsumoto,松本健太,GK,fringe,1,
+KSW,77,Tomoya Wakahara,若原智哉,GK,rotation,1,
+KSW,2,Hiromu Mitsumaru,三丸拡,DEF,rotation,1,
+KSW,3,Shogo Asada,麻田将吾,DEF,starter,1,
+KSW,4,Taiyo Koga,古賀太陽,DEF,starter,1,
+KSW,13,Tomoya Inukai,犬飼智也,DEF,solid,1,
+KSW,22,Yuki Noda,野田裕喜,DEF,rotation,1,
+KSW,26,Daiki Sugioka,杉岡大暉,DEF,solid,1,
+KSW,32,Yusei Yamanouchi,山之内佑成,DEF,rotation,1,
+KSW,42,Wataru Harada,原田亘,DEF,starter,1,
+KSW,88,Seiya Baba,馬場晴也,DEF,starter,1,
+KSW,45,Oku Sato,佐藤桜久,DEF,fringe,0,Only on one stats site
+KSW,56,Kanade Tsunefuji,常藤奏,DEF,fringe,0,Only on one stats site
+KSW,5,Keita Endo,遠藤渓太,MID,solid,1,
+KSW,6,Yuji Yamada,山田雄士,MID,rotation,1,
+KSW,8,Kaito Koizumi,小泉佳穂,MID,starter,1,
+KSW,11,Riki Watai,渡井理己,MID,rotation,1,
+KSW,14,Tomoaki Okubo,大久保智明,MID,solid,1,
+KSW,16,Koya Yuruki,汰木康也,MID,rotation,1,
+KSW,17,Kohei Tezuka,手塚康平,MID,starter,1,
+KSW,19,Hayato Nakama,仲間隼斗,MID,starter,1,
+KSW,20,Yusuke Segawa,瀬川祐輔,MID,rotation,1,
+KSW,21,Yudai Konishi,小西雄大,MID,solid,1,
+KSW,23,Kaishi Chonan,長南開史,MID,rotation,1,
+KSW,24,Tojiro Kubo,久保藤次郎,MID,starter,1,
+KSW,27,Koki Kumasaka,熊坂光希,MID,solid,1,
+KSW,28,Sachiro Toshima,戸嶋祥郎,MID,rotation,1,
+KSW,33,Sota Iwanaga,岩永創太,MID,fringe,1,
+KSW,38,Rei Shimano,島野怜,MID,fringe,1,
+KSW,39,Atsuki Nakagawa,中川敦瑛,MID,solid,1,English spelling of name is a best guess
+KSW,40,Chikara Harakawa,原川力,MID,rotation,1,
+KSW,44,Kenma Yuba,弓場堅真,MID,rotation,1,
+KSW,87,Hinata Yamauchi,山内日向汰,MID,rotation,1,
+KSW,9,Mao Hosoya,細谷真大,FWD,star,1,
+KSW,15,Shota Fujio,藤尾翔太,FWD,solid,0,Listed by both Kashiwa (15) and Machida (9) in 2026/27 announcements
+KSW,18,Yuki Kakita,垣田裕暉,FWD,solid,1,
+KSW,36,Nabel Jiu Furusawa,古澤ナベル慈宇,FWD,fringe,1,
+KSW,51,Makoto Mitsuta,満田誠,FWD,starter,1,
+FCT,1,Hayate Tanaka,田中颯,GK,solid,1,
+FCT,58,Wataru Goto,後藤亘,GK,fringe,1,
+FCT,55,Divine Chinedu Otani,尾谷ディヴァインチネドゥ,GK,fringe,1,
+FCT,81,Kim Seung-gyu,キム・スンギュ,GK,starter,1,
+FCT,2,Sei Muroya,室屋成,DEF,starter,1,
+FCT,3,Masato Morishige,森重真人,DEF,solid,1,
+FCT,4,Hayato Inamura,稲村隼翔,DEF,starter,1,
+FCT,6,Kashifu Bangunagande,バングーナガンデ佳史扶,DEF,solid,1,
+FCT,15,Rio Omori,大森理生,DEF,rotation,1,
+FCT,20,Shuto Nagano,永野修都,DEF,rotation,1,
+FCT,22,Hirotaka Ishihara,石原広教,DEF,starter,1,
+FCT,24,Alexander Scholz,アレクサンダー・ショルツ,DEF,starter,1,
+FCT,42,Kento Hashimoto,橋本健人,DEF,rotation,1,
+FCT,44,Kaede Suzuki,鈴木楓,DEF,fringe,0,On official list but position not confirmed
+FCT,8,Ko Uyon,高宇洋,MID,starter,1,
+FCT,18,Kento Hashimoto,橋本拳人,MID,starter,1,
+FCT,19,Shion Homma,本間至恩,MID,starter,1,
+FCT,21,Yuta Sugawara,菅原悠太,MID,rotation,1,
+FCT,27,Kota Tokiwa,常盤亨太,MID,solid,1,
+FCT,33,Kota Tawaratsumida,俵積田晃太,MID,starter,1,
+FCT,38,Kiwa Tanaka,田中希和,MID,fringe,0,On official list but position not confirmed
+FCT,71,Fuki Yamada,山田楓喜,MID,solid,1,
+FCT,9,Marcelo Ryan,マルセロ・ヒアン,FWD,starter,1,
+FCT,10,Keiya Sato,佐藤恵允,FWD,starter,1,
+FCT,11,Tsuyoshi Ogashiwa,小柏剛,FWD,solid,1,
+FCT,25,Kizuna Komito,小湊絆,FWD,rotation,1,
+FCT,26,Motoki Nagakura,長倉幹樹,FWD,solid,1,
+FCT,39,Teruhito Nakagawa,仲川輝人,FWD,solid,1,
+VER,1,Matheus Vidotto,マテウス,GK,starter,1,
+VER,21,Yuya Nagasawa,長沢祐弥,GK,rotation,1,
+VER,31,Hiroki Mawatari,馬渡洋樹,GK,fringe,1,
+VER,41,Keisuke Nakamura,中村圭佑,GK,fringe,1,
+VER,4,Naoki Hayashi,林尚輝,DEF,starter,1,
+VER,5,Ryuta Inoue,井上竜太,DEF,solid,1,
+VER,6,Kazuya Miyahara,宮原和也,DEF,starter,1,
+VER,15,Kaito Suzuki,鈴木海音,DEF,starter,1,
+VER,18,Shuhei Mizoguchi,溝口修平,DEF,solid,1,
+VER,22,Yosuke Uchida,内田陽介,DEF,solid,1,
+VER,29,Marei Sako,佐古真礼,DEF,fringe,1,
+VER,35,Hideto Tanabe,田邉秀斗,DEF,solid,1,
+VER,36,Riku Matsuda,松田陸,DEF,solid,1,
+VER,55,Taiju Yoshida,吉田泰授,DEF,fringe,1,
+VER,7,Yuan Matsuhashi,松橋優安,MID,solid,1,
+VER,8,Kosuke Saito,齋藤功佑,MID,starter,1,
+VER,10,Koki Morita,森田晃樹,MID,starter,1,
+VER,14,Yuya Fukuda,福田湧矢,MID,solid,1,
+VER,16,Rei Hirakawa,平川怜,MID,starter,1,
+VER,20,Soma Meshino,食野壮磨,MID,starter,1,
+VER,28,Joi Yamamoto,山本丈偉,MID,solid,1,
+VER,30,Rakuto Kawamura,川村楽人,MID,fringe,1,
+VER,40,Yuta Arai,新井悠太,MID,solid,1,
+VER,42,Kento Imai,今井健人,MID,fringe,1,
+VER,9,Itsuki Someno,染野唯月,FWD,starter,1,
+VER,11,Hiroto Yamami,山見大登,FWD,starter,1,
+VER,13,Goki Yamada,山田剛綺,FWD,rotation,1,
+VER,17,Kim Hyun-woo,キム・ヒョンウ,FWD,solid,1,
+VER,24,Shion Nakayama,仲山獅恩,FWD,fringe,1,
+VER,25,Issei Kumatoriya,熊取谷一星,FWD,solid,1,
+VER,27,Ryosuke Shirai,白井亮丞,FWD,rotation,1,
+VER,38,Soma Kanda,神田奏真,FWD,rotation,1,
+VER,45,Seibun Teranuma,寺沼星文,FWD,rotation,1,
+VER,51,Sota Ofuji,大藤颯太,FWD,fringe,1,
+MAC,1,Kosei Tani,谷晃生,GK,starter,1,
+MAC,13,Tatsuya Morita,守田達弥,GK,rotation,1,
+MAC,66,Aki Koch,コッホ・アキ,GK,fringe,0,Only on one data site
+MAC,3,Gen Shoji,昌子源,DEF,starter,1,
+MAC,4,Ryuho Kikuchi,菊池流帆,DEF,solid,1,
+MAC,5,Ibrahim Dresevic,ドレシェヴィッチ,DEF,starter,1,
+MAC,6,Henry Heroki Mochizuki,望月ヘンリー海輝,DEF,starter,1,
+MAC,19,Yuta Nakayama,中山雄太,DEF,starter,1,
+MAC,24,Kim Min-tae,キム・ミンテ,DEF,rotation,1,
+MAC,50,Daihachi Okamura,岡村大八,DEF,starter,1,
+MAC,88,Hotaka Nakamura,中村帆高,DEF,solid,1,
+MAC,33,Takahiro Akimoto,明本考浩,DEF,solid,0,Only in Wikipedia; not on official list
+MAC,8,Keiya Sento,仙頭啓矢,MID,solid,1,
+MAC,11,Asahi Masuyama,増山朝陽,MID,solid,1,
+MAC,14,Yusuke Matsuo,松尾佑介,MID,starter,1,
+MAC,16,Hiroyuki Mae,前寛之,MID,starter,1,
+MAC,18,Hokuto Shimoda,下田北斗,MID,solid,1,
+MAC,23,Ryohei Shirasaki,白崎凌兵,MID,rotation,1,
+MAC,28,Cha Je-hoon,チャ・ジェフン,MID,rotation,1,
+MAC,31,Neta Lavi,ネタ・ラヴィ,MID,starter,1,
+MAC,7,Yuki Soma,相馬勇紀,FWD,star,1,
+MAC,15,Mitchell Duke,ミッチェル・デューク,FWD,solid,1,
+MAC,20,Takuma Nishimura,西村拓真,FWD,starter,1,
+MAC,27,Erik,エリキ,FWD,star,1,
+MAC,34,Fudai Tokumura,徳村楓大,FWD,fringe,1,English spelling of name is a best guess
+MAC,99,Tete Yengi,テテ・イェンギ,FWD,starter,1,
+KAW,1,Louis Yamaguchi,山口瑠伊,GK,starter,1,
+KAW,21,Yuki Hayasaka,早坂勇希,GK,rotation,1,
+KAW,33,Lee Kun-hyeong,イ・クンヒョン,GK,fringe,1,
+KAW,49,Svend Brodersen,スベンド・ブローダーセン,GK,solid,1,
+KAW,2,Yuji Matsunagane,松長根悠仁,DEF,fringe,1,English spelling of name is a best guess
+KAW,3,Eito Taniguchi,谷口栄斗,DEF,starter,1,
+KAW,4,Pedro Romano,ペドロ・ホマーノ,DEF,solid,1,
+KAW,5,Asahi Sasaki,佐々木旭,DEF,starter,1,
+KAW,13,Sota Miura,三浦颯太,DEF,starter,1,
+KAW,22,Filip Uremovic,フィリップ・ウレモヴィッチ,DEF,starter,1,
+KAW,28,Yuichi Maruyama,丸山祐市,DEF,rotation,1,
+KAW,29,Reon Yamahara,山原怜音,DEF,solid,1,
+KAW,30,Yuto Noda,野田裕人,DEF,fringe,1,
+KAW,31,Tokuharu Seki,関德晴,DEF,fringe,1,English spelling of name is a best guess
+KAW,32,Shunsuke Hayashi,林駿佑,DEF,fringe,1,
+KAW,6,Yuki Yamamoto,山本悠樹,MID,starter,1,
+KAW,8,Kento Tachibanada,橘田健人,MID,starter,1,
+KAW,10,Ryota Oshima,大島僚太,MID,solid,1,
+KAW,14,Yasuto Wakizaka,脇坂泰斗,MID,star,1,
+KAW,16,Yuto Ozeki,大関友翔,MID,solid,1,
+KAW,18,Kazuya Konno,紺野和也,MID,solid,1,
+KAW,19,So Kawahara,河原創,MID,starter,1,
+KAW,25,Shuto Yamaichi,山市秀翔,MID,rotation,1,
+KAW,26,Kota Yui,由井航太,MID,fringe,1,
+KAW,34,Riki Osa,長璃喜,MID,fringe,1,English spelling of name is a best guess
+KAW,41,Akihiro Ienaga,家長昭博,MID,solid,1,
+KAW,9,Lazar Romanic,ラザル・ロマニッチ,FWD,starter,1,
+KAW,11,Yu Kobayashi,小林悠,FWD,rotation,1,
+KAW,17,Tatsuya Ito,伊藤達哉,FWD,star,1,
+KAW,20,Kyosuke Mochiyama,持山匡佑,FWD,rotation,1,
+KAW,23,Marcinho,マルシーニョ,FWD,starter,1,
+KAW,24,Ten Miyagi,宮城天,FWD,solid,1,
+KAW,93,Kaiki Queiroz,カイキ・ケイロス,FWD,solid,1,
+YFM,1,Park Il-gyu,朴一圭,GK,starter,1,
+YFM,20,Yuya Tsuboi,坪井湧也,GK,fringe,1,
+YFM,21,Hiroki Iikura,飯倉大樹,GK,rotation,1,
+YFM,36,Ruben Blanco,ルベン・ブランコ,GK,rotation,0,Only in Wikipedia / secondary lists
+YFM,13,Taisei Inoue,井上太聖,DEF,solid,1,
+YFM,15,Taiki Watanabe,渡邊泰基,DEF,starter,1,
+YFM,17,Jason Quinonez,ジェイソン・キニョーネス,DEF,starter,1,
+YFM,22,Ryotaro Tsunoda,角田涼太朗,DEF,starter,1,
+YFM,27,Ken Matsubara,松原健,DEF,starter,1,
+YFM,8,Takuya Kida,喜田拓也,MID,starter,1,
+YFM,14,Kei Chinen,知念慶,MID,starter,1,
+YFM,25,Toichi Suzuki,鈴木冬一,MID,solid,1,
+YFM,28,Riku Yamane,山根陸,MID,solid,1,
+YFM,29,Yuto Higuchi,樋口有斗,MID,fringe,1,
+YFM,32,Yudai Tanaka,田中雄大,MID,fringe,0,Same name as a Hiroshima GK; not confirmed
+YFM,34,Takuto Kimura,木村卓斗,MID,solid,1,
+YFM,40,Jun Amano,天野純,MID,solid,1,
+YFM,7,Daiya Tono,遠野大弥,FWD,starter,1,
+YFM,9,Kaina Tanimura,谷村海那,FWD,starter,1,
+YFM,11,Jordy Croux,ジョルディ・クルークス,FWD,starter,1,
+YFM,18,Joji Onaiwu,オナイウ情滋,FWD,solid,1,
+YFM,19,Tevis,テヴィス,FWD,rotation,1,
+YFM,23,Ryo Miyaichi,宮市亮,FWD,rotation,1,
+YFM,24,Tomoki Kondo,近藤友喜,FWD,starter,1,
+YFM,26,Dean David,ディーン・デイビッド,FWD,starter,1,
+YFM,43,Rio Nitta,二田理央,FWD,rotation,1,
+SHI,1,Yuya Oki,沖悠哉,GK,starter,1,
+SHI,16,Togo Umeda,梅田透吾,GK,rotation,1,
+SHI,22,Kei Ishikawa,石川慧,GK,fringe,1,
+SHI,30,Tomotaro Sasaki,佐々木智太郎,GK,fringe,1,
+SHI,3,Yuji Takahashi,高橋祐治,DEF,starter,1,
+SHI,14,Park Seung-wook,パク・スンウク,DEF,starter,1,
+SHI,20,Eom Ju-yeong,オム・ジュヨン,DEF,solid,1,English spelling of name is a best guess
+SHI,24,Hidehiro Sugai,須貝英大,DEF,starter,1,
+SHI,4,Sota Hasukawa,蓮川壮大,DEF,solid,0,Only in July 2026 list
+SHI,5,Kengo Kitazume,北爪健吾,DEF,solid,0,Only in January 2026 list
+SHI,15,Yuki Honda,本多勇喜,DEF,solid,0,Only in July 2026 list
+SHI,21,Kai Matsuzaki,松崎快,MID,starter,1,
+SHI,27,Ryota Hario,針生涼太,MID,rotation,1,English spelling of name is a best guess
+SHI,33,Yuji Doi,土居佑至,MID,solid,1,
+SHI,6,Zento Uno,宇野禅斗,MID,starter,0,Only in January 2026 list
+SHI,7,Capixaba,カピシャーバ,MID,starter,0,Only in January 2026 list
+SHI,8,Kenta Inoue,井上健太,MID,solid,0,Only in January 2026 list
+SHI,11,Teru Nakahara,中原輝,MID,solid,0,Only in January 2026 list
+SHI,49,Koya Kitagawa,北川航也,FWD,starter,1,
+SHI,9,Oh Se-hun,オ・セフン,FWD,starter,0,Only in January 2026 list
+SHI,18,Riku Gunji,郡司璃来,FWD,rotation,0,Only in January 2026 list
+SHI,23,Kanta Chiba,千葉寛汰,FWD,rotation,0,Only in January 2026 list
+NAG,1,Daniel Schmidt,シュミット・ダニエル,GK,starter,1,
+NAG,16,Yohei Takeda,武田洋平,GK,fringe,1,
+NAG,35,Alexandre Pisano,ピサノ・アレクサンドレ幸冬堀尾,GK,solid,1,
+NAG,36,Yuhi Hagi,萩裕陽,GK,fringe,1,English spelling of name is a best guess
+NAG,2,Yuki Nogami,野上結貴,DEF,starter,1,
+NAG,3,Yota Sato,佐藤瑶大,DEF,starter,1,
+NAG,13,Haruya Fujii,藤井陽也,DEF,starter,1,
+NAG,37,Haruma Kubo,久保遥夢,DEF,fringe,1,English spelling of name is a best guess
+NAG,55,Yuhei Tokumoto,徳元悠平,DEF,solid,1,
+NAG,70,Teruki Hara,原輝綺,DEF,starter,1,
+NAG,7,Ryuji Izumi,和泉竜司,MID,solid,1,
+NAG,9,Yuya Asano,浅野雄也,MID,solid,1,
+NAG,14,Tsukasa Morishima,森島司,MID,starter,1,
+NAG,15,Sho Inagaki,稲垣祥,MID,starter,1,
+NAG,17,Takuya Uchida,内田宅哉,MID,solid,1,
+NAG,19,Hidemasa Koda,甲田英將,MID,rotation,1,
+NAG,27,Katsuhiro Nakayama,中山克広,MID,solid,1,
+NAG,31,Tomoki Takamine,高嶺朋樹,MID,starter,1,
+NAG,33,Taichi Kikuchi,菊地泰智,MID,solid,1,
+NAG,41,Masashi Ono,小野雅史,MID,rotation,1,
+NAG,58,Tomoya Koyamatsu,小屋松知哉,MID,rotation,1,
+NAG,10,Mateus Castro,マテウス・カストロ,FWD,star,1,
+NAG,18,Kensuke Nagai,永井謙佑,FWD,rotation,1,
+NAG,22,Yudai Kimura,木村勇大,FWD,starter,1,
+NAG,25,Marcus Vinicius,マルクス・ヴィニシウス,FWD,solid,1,
+NAG,30,Shungo Sugiura,杉浦駿吾,FWD,rotation,1,
+KYO,1,Takeshi Ota,太田岳志,GK,starter,1,
+KYO,21,Kentaro Kakoi,圍謙太朗,GK,rotation,1,
+KYO,36,San Fantini,ファンティーニ燦,GK,fringe,1,English spelling of name is a best guess
+KYO,90,House,ハウス,GK,fringe,1,English spelling of name is a best guess
+KYO,94,Shoken Murakami,村上昌謙,GK,rotation,1,
+KYO,5,Hisashi Appiah Tawiah,アピアタウィア久,DEF,starter,1,
+KYO,15,Kodai Nagata,永田倖大,DEF,fringe,1,
+KYO,26,Ren Kato,加藤蓮,DEF,solid,1,
+KYO,33,Fudai Yamamoto,山本楓大,DEF,fringe,1,English spelling of name is a best guess
+KYO,34,Henrique Trevisan,エンリケ・トレヴィザン,DEF,starter,1,
+KYO,40,Yusuke Ishida,石田侑資,DEF,rotation,1,
+KYO,43,Weverton,ウェベルトン,DEF,rotation,1,
+KYO,50,Yoshinori Suzuki,鈴木義宜,DEF,starter,1,
+KYO,60,Ryosuke Yamanaka,山中亮輔,DEF,solid,0,Also on Nagoya's June 2026 list (No.60)
+KYO,62,Takaaki Shichi,志知孝明,DEF,solid,0,Also on Hiroshima's July 2026 list (No.16)
+KYO,6,Joao Pedro,ジョアン・ペドロ,MID,starter,1,
+KYO,7,Masaya Okugawa,奥川雅也,MID,starter,1,
+KYO,8,Takuji Yonemoto,米本拓司,MID,solid,1,
+KYO,10,Shimpei Fukuoka,福岡慎平,MID,starter,1,
+KYO,14,Thiago,チアゴ,MID,rotation,1,
+KYO,16,Taiyo Hiraoka,平岡大陽,MID,rotation,1,
+KYO,18,Temma Matsuda,松田天馬,MID,solid,1,
+KYO,24,Yuto Morooka,諸岡裕人,MID,rotation,1,
+KYO,25,Yun Sung-jun,尹星俊,MID,rotation,1,
+KYO,32,Mitsuki Saito,齊藤未月,MID,starter,1,
+KYO,41,Haruto Tachikawa,立川遼翔,MID,fringe,1,
+KYO,44,Hibiki Sato,佐藤響,MID,solid,1,
+KYO,48,Ruma Nakano,中野瑠馬,MID,fringe,1,
+KYO,77,Haruki Arai,新井晴樹,MID,solid,1,
+KYO,99,Fuchi Honda,本田風智,MID,solid,1,
+KYO,9,Rafael Elias,ラファエル・エリアス,FWD,star,1,
+KYO,29,Koki Sakai,酒井滉生,FWD,fringe,1,
+KYO,31,Sora Hiraga,平賀大空,FWD,solid,1,
+KYO,38,Everton Maceio,エベルトン・マセイオ,FWD,rotation,1,
+KYO,23,Takumi Kato,加藤拓己,FWD,rotation,0,Only in Wikipedia; not on official page
+KYO,92,Shun Nagasawa,長沢駿,FWD,fringe,0,Only in Wikipedia
+GAM,1,Masaaki Higashiguchi,東口順昭,GK,rotation,1,
+GAM,18,Rui Araki,荒木琉偉,GK,solid,1,
+GAM,22,Jun Ichimori,一森純,GK,starter,1,
+GAM,31,Zhang Aolin,張奥林,GK,fringe,1,
+GAM,2,Shota Fukuoka,福岡将太,DEF,starter,1,
+GAM,3,Riku Handa,半田陸,DEF,starter,1,
+GAM,4,Shinnosuke Nakatani,中谷進之介,DEF,starter,1,
+GAM,5,Genta Miura,三浦弦太,DEF,solid,1,
+GAM,15,Takeru Kishimoto,岸本武流,DEF,solid,1,
+GAM,19,Ginjiro Ikeya,池谷銀姿郎,DEF,fringe,1,
+GAM,21,Ryo Hatsuse,初瀬亮,DEF,rotation,1,
+GAM,34,Yuya Yokoi,横井佑弥,DEF,fringe,1,
+GAM,47,Shinya Nakano,中野伸哉,DEF,solid,1,
+GAM,67,Shogo Sasaki,佐々木翔悟,DEF,rotation,1,
+GAM,10,Shu Kurata,倉田秋,MID,rotation,1,
+GAM,13,Shuto Abe,安部柊斗,MID,solid,1,
+GAM,16,Tokuma Suzuki,鈴木徳真,MID,starter,1,
+GAM,20,Eli Adams,イーライ・アダムス,MID,rotation,1,
+GAM,27,Rin Mito,美藤倫,MID,starter,1,
+GAM,32,Yuki Yoshihara,吉原優輝,MID,fringe,1,
+GAM,35,Taisei Tono,當野泰生,MID,fringe,0,Listed as MF by one site and FW by another
+GAM,38,Gaku Nawata,名和田我空,MID,rotation,1,
+GAM,44,Kanji Okunuki,奥抜侃志,MID,solid,1,
+GAM,7,Takashi Usami,宇佐美貴史,FWD,star,1,
+GAM,8,Ryotaro Meshino,食野亮太郎,FWD,starter,1,
+GAM,9,Daichi Hayashi,林大地,FWD,solid,1,
+GAM,11,Issam Jebali,イッサム・ジェバリ,FWD,starter,1,
+GAM,14,Asahi Uenaka,植中朝日,FWD,rotation,1,
+GAM,17,Ryoya Yamashita,山下諒也,FWD,starter,1,
+GAM,23,Deniz Hummet,デニス・ヒュメット,FWD,starter,1,
+GAM,97,Welton,ウェルトン,FWD,starter,1,
+CER,1,Go Kamibayashi,上林豪,GK,rotation,1,
+CER,23,Kosuke Nakamura,中村航輔,GK,starter,1,
+CER,31,Koto Abe,阿部航斗,GK,rotation,1,
+CER,46,Ken Ishibo,イシボウ拳,GK,fringe,1,English spelling of name is a best guess
+CER,2,Takumi Nakamura,中村拓海,DEF,starter,0,Only in Wikipedia number history
+CER,3,Hayato Tanaka,田中隼人,DEF,solid,0,Only in January 2026 list
+CER,4,Reoto Inoue,井上黎生人,DEF,starter,0,Only in Wikipedia number history
+CER,6,Kyohei Noborizato,登里享平,DEF,solid,1,
+CER,5,Hinata Kida,喜田陽,MID,solid,0,Only in Wikipedia number history
+CER,7,Tomoki Kamikado,上門知樹,MID,starter,0,Only in Wikipedia number history
+CER,8,Shinji Kagawa,香川真司,MID,solid,1,
+CER,10,Shunta Tanaka,田中駿汰,MID,starter,1,
+CER,14,Yumeki Yokoyama,横山夢樹,MID,solid,0,Only in January 2026 list
+CER,9,Solomon Sakuragawa,櫻川ソロモン,FWD,starter,1,
+CER,11,Thiago Andrade,チアゴ・アンドラーデ,FWD,starter,1,
+CER,41,Yota Komi,小見洋太,FWD,solid,1,Loan from Kashiwa (July 2026)
+KOB,1,Daiya Maekawa,前川黛也,GK,starter,1,
+KOB,21,Shota Arai,新井章太,GK,fringe,1,
+KOB,32,Richard Ubong Manday,ウボング・リチャード・マンデー,GK,fringe,1,English spelling of name is a best guess
+KOB,39,Shio Takayama,髙山汐生,GK,fringe,1,English spelling of name is a best guess
+KOB,71,Shuichi Gonda,権田修一,GK,solid,1,
+KOB,3,Matheus Thuler,マテウス・トゥーレル,DEF,starter,1,
+KOB,4,Tetsushi Yamakawa,山川哲史,DEF,starter,1,
+KOB,15,Diego,ジエゴ,DEF,rotation,1,
+KOB,16,Caetano,カエターノ,DEF,starter,1,
+KOB,23,Rikuto Hirose,広瀬陸斗,DEF,solid,0,Listed by both Kobe (23) and Kashima's player page (37)
+KOB,24,Gotoku Sakai,酒井高徳,DEF,starter,1,
+KOB,31,Takuya Iwanami,岩波拓也,DEF,rotation,1,
+KOB,41,Katsuya Nagato,永戸勝也,DEF,starter,1,
+KOB,42,Justin Homma,本間ジャスティン,DEF,fringe,1,
+KOB,43,Kaito Yamada,山田海斗,DEF,fringe,1,
+KOB,57,Ryosuke Irie,入江羚介,DEF,fringe,1,
+KOB,80,Boniface Nduka,ンドカ・ボニフェイス,DEF,rotation,1,
+KOB,2,Nanasei Iino,飯野七聖,MID,solid,1,
+KOB,5,Yuta Goke,郷家友太,MID,starter,1,
+KOB,18,Haruya Ide,井出遥也,MID,solid,1,
+KOB,20,Kota Watanabe,渡辺皓太,MID,starter,1,
+KOB,25,Yuya Kuwasaki,鍬先祐弥,MID,starter,1,
+KOB,28,Kento Hamasaki,濱﨑健斗,MID,fringe,1,
+KOB,33,Rikuto Hashimoto,橋本陸斗,MID,fringe,1,
+KOB,38,Juzo Ura,浦十藏,MID,fringe,1,English spelling of name is a best guess
+KOB,44,Mitsuki Hidaka,日髙光揮,MID,solid,1,
+KOB,51,Hiroto Seguchi,瀬口大翔,MID,fringe,1,
+KOB,58,Sota Onishi,大西湊太,MID,fringe,1,
+KOB,6,Takahiro Ogihara,扇原貴宏,MID,solid,0,Only in Wikipedia; not in official excerpt
+KOB,7,Yosuke Ideguchi,井手口陽介,MID,starter,0,Only in Wikipedia; not in official excerpt
+KOB,11,Yoshinori Muto,武藤嘉紀,FWD,star,1,
+KOB,13,Daiju Sasaki,佐々木大樹,FWD,starter,1,
+KOB,26,Jean Patric,ジェアン・パトリッキ,FWD,starter,1,
+KOB,29,Ren Komatsu,小松蓮,FWD,solid,1,
+KOB,35,Niina Tominaga,冨永虹七,FWD,rotation,1,English spelling of name is a best guess
+KOB,45,David Aizawa,相澤デイビッド,FWD,fringe,1,
+KOB,46,Sota Ito,伊藤湊太,FWD,fringe,1,
+KOB,53,Hayato Watanabe,渡辺隼斗,FWD,fringe,1,
+KOB,55,Yuta Miyahara,宮原勇太,FWD,fringe,1,
+KOB,9,Anderson Lopes,アンデルソン・ロペス,FWD,starter,0,Only in Wikipedia; not in official excerpt
+KOB,10,Yuya Osako,大迫勇也,FWD,star,0,Only in Wikipedia; not in official excerpt
+OKA,1,Renato Moser,レナート・モーザー,GK,starter,1,
+OKA,13,Shun Matsuda,松田駿,GK,fringe,1,
+OKA,23,Kevin Silva,ケヴィン・シルバ,GK,rotation,1,
+OKA,52,Taro Hamada,濵田太郎,GK,rotation,1,
+OKA,77,Goro Kawanami,川浪吾郎,GK,rotation,1,
+OKA,4,Ryoya Ogawa,小川遼也,DEF,solid,1,
+OKA,5,Shu Ikedo,池戸柊宇,DEF,rotation,1,English spelling of name is a best guess
+OKA,6,Hiroshi Omori,大森博,DEF,solid,1,
+OKA,18,Daichi Tagami,田上大地,DEF,starter,1,
+OKA,26,Haruka Motoyama,本山遥,DEF,solid,1,
+OKA,48,Yugo Tatsuta,立田悠悟,DEF,starter,1,
+OKA,7,Ryo Takeuchi,竹内涼,MID,starter,1,
+OKA,8,Ataru Esaka,江坂任,MID,starter,1,
+OKA,14,Ryo Tabei,田部井涼,MID,starter,1,
+OKA,17,Rui Sueyoshi,末吉塁,MID,solid,1,
+OKA,24,Ibuki Fujita,藤田息吹,MID,starter,1,
+OKA,27,Taiya Kimura,木村太哉,MID,solid,1,
+OKA,28,Masaya Matsumoto,松本昌也,MID,solid,1,
+OKA,33,Yuta Kamiya,神谷優太,MID,solid,1,
+OKA,40,Kosei Ogura,小倉幸成,MID,fringe,1,
+OKA,41,Eiji Miyamoto,宮本英治,MID,fringe,1,
+OKA,66,Jun Nishikawa,西川潤,MID,solid,1,
+OKA,79,Noah Kenshin Browne,ブラウン・ノア賢信,MID,rotation,1,
+OKA,80,Oberdan,オベルダン,MID,rotation,1,
+OKA,88,Towa Yamane,山根永遠,MID,rotation,1,
+OKA,9,Leo Gaucho,レオ・ガウショ,FWD,starter,1,
+OKA,10,Na Sang-ho,ナ・サンホ,FWD,starter,1,
+OKA,19,Ryoga Sato,佐藤凌我,FWD,solid,1,
+OKA,20,Kota Kawano,河野孝汰,FWD,rotation,1,
+OKA,30,Kanshiro Suemune,末宗寛士郎,FWD,fringe,1,English spelling of name is a best guess
+OKA,99,Lucao,ルカオ,FWD,starter,1,
+HIR,1,Keisuke Osako,大迫敬介,GK,star,1,
+HIR,21,Yudai Tanaka,田中雄大,GK,fringe,1,
+HIR,43,Ko Ogawa,小川煌,GK,fringe,1,English spelling of name is a best guess
+HIR,99,Issei Ouchi,大内一生,GK,fringe,1,
+HIR,3,Taichi Yamasaki,山﨑大地,DEF,starter,1,
+HIR,4,Hayato Araki,荒木隼人,DEF,starter,1,
+HIR,5,Naoto Arai,新井直人,DEF,solid,1,
+HIR,15,Shuto Nakano,中野就斗,DEF,starter,1,
+HIR,19,Sho Sasaki,佐々木翔,DEF,solid,1,
+HIR,33,Tsukasa Shiotani,塩谷司,DEF,solid,1,
+HIR,37,Kim Ju-sung,キム・ジュソン,DEF,starter,1,
+HIR,6,Shun Kawabe,川辺駿,MID,starter,1,
+HIR,7,Toshiki Higashi,東俊希,MID,starter,1,
+HIR,14,Taishi Matsumoto,松本泰志,MID,starter,1,
+HIR,18,Daiki Suga,菅大輝,MID,solid,1,
+HIR,32,Sota Koshimichi,越道草太,MID,solid,1,
+HIR,35,Yotaro Nakajima,中島洋太朗,MID,starter,1,
+HIR,45,Shimon Kobayashi,小林志紋,MID,fringe,1,
+HIR,46,Rento Noguchi,野口蓮斗,MID,fringe,1,
+HIR,8,Takumu Kawamura,川村拓夢,MID,starter,0,Only in Wikipedia; not in official announcement
+HIR,10,Akito Suzuki,鈴木章斗,FWD,starter,1,
+HIR,11,Mutsuki Kato,加藤陸次樹,FWD,starter,1,
+HIR,23,Shun Ayukawa,鮎川峻,FWD,rotation,1,
+HIR,29,Takuma Asano,浅野拓磨,FWD,star,1,
+HIR,39,Sota Nakamura,中村草太,FWD,starter,1,
+HIR,41,Naoki Maeda,前田直輝,FWD,solid,1,
+FUK,1,Takumi Nagaishi,永石拓海,GK,starter,1,
+FUK,24,Yuma Obata,小畑祐馬,GK,rotation,0,Only in Wikipedia number history
+FUK,41,Kazuki Fujita,藤田和輝,GK,fringe,0,Only in Wikipedia number history
+FUK,2,Masato Yuzawa,湯澤聖人,DEF,solid,1,
+FUK,3,Tatsuki Nara,奈良竜樹,DEF,starter,1,
+FUK,5,Takumi Kamijima,上島拓巳,DEF,starter,1,
+FUK,15,Yuma Tsujioka,辻岡佑真,DEF,rotation,1,
+FUK,16,Teppei Oka,岡哲平,DEF,starter,1,
+FUK,20,Kennedy Mikuni,三國ケネディエブス,DEF,solid,1,
+FUK,23,Daiki Fukazawa,深澤大輝,DEF,solid,1,
+FUK,29,Yota Maejima,前嶋洋太,DEF,solid,1,
+FUK,38,Daiki Miya,宮大樹,DEF,starter,1,
+FUK,47,Yu Hashimoto,橋本悠,DEF,fringe,0,Only in Wikipedia number history
+FUK,56,Yuhi Sakai,坂井悠飛,DEF,fringe,0,Only in Wikipedia number history
+FUK,6,Masato Shigemi,重見柾斗,MID,starter,1,
+FUK,8,Kohei Okuno,奥野耕平,MID,solid,1,
+FUK,11,Yuya Mitsuki,見木友哉,MID,starter,1,
+FUK,14,Shintaro Nago,名古新太郎,MID,solid,1,
+FUK,17,Hiroki Akino,秋野央樹,MID,solid,1,
+FUK,21,Oriol Romeu,オリオール・ロメウ,MID,starter,0,Only on a fan-site number table
+FUK,25,Yuji Kitajima,北島祐二,MID,solid,0,Only in secondary lists
+FUK,34,Keiya Shiihashi,椎橋慧也,MID,starter,0,Only in secondary lists
+FUK,46,Kazuki Fukushima,福島和毅,MID,fringe,0,Only in secondary lists
+FUK,52,Shohei Takemoto,武本匠平,MID,fringe,0,Only in secondary lists
+FUK,55,Kai Maeda,前田快,MID,fringe,0,Only in secondary lists
+FUK,7,Seiya Usui,碓井聖生,FWD,starter,1,
+FUK,9,Welik Popo,ウェリック・ポポ,FWD,starter,1,
+FUK,10,Hisashi Jogo,城後寿,FWD,rotation,1,
+FUK,13,Shuo Morooka,師岡柊生,FWD,solid,1,
+FUK,18,Sonosuke Sato,佐藤颯之介,FWD,fringe,1,
+FUK,27,Reiki Tsuruno,鶴野怜樹,FWD,fringe,0,Only in secondary lists
+FUK,32,Abdelhanan Sanibrown,サニブラウン・アブデルハナン,FWD,fringe,0,Only in secondary lists
+NGS,1,Masaaki Goto,後藤雅明,GK,starter,0,Only in Wikipedia / Gekisaka (undated)
+NGS,13,Go Hatano,波多野豪,GK,rotation,0,Only in Wikipedia / Gekisaka (undated)
+NGS,26,Kaito Ioka,井岡海都,GK,fringe,0,Only in Wikipedia / Gekisaka (undated)
+NGS,30,Luka Radotic,ルカ・ラドティッチ,GK,fringe,0,Only in Wikipedia / Gekisaka (undated)
+NGS,2,Masahiro Sekiguchi,関口正大,DEF,solid,0,Only in Wikipedia number history
+NGS,4,Eduardo,エドゥアルド,DEF,starter,0,Only in Wikipedia / Gekisaka (undated)
+NGS,6,Yusei Egawa,江川湧清,DEF,starter,0,Only in Wikipedia / Gekisaka (undated)
+NGS,17,Keita Takahata,高畑奎汰,DEF,solid,0,Only in Wikipedia / Gekisaka (undated)
+NGS,22,Hijiri Onaga,翁長聖,DEF,solid,0,Only in Wikipedia number history; position not confirmed
+NGS,23,Junya Yoneda,米田隼也,DEF,solid,0,Only in Wikipedia / Gekisaka (undated)
+NGS,25,Takuma Ominami,大南拓磨,DEF,starter,0,Only in Wikipedia / Gekisaka (undated)
+NGS,29,Issei Arai,新井一耀,DEF,solid,0,Only in Wikipedia / Gekisaka (undated)
+NGS,31,Kanta Doi,土肥幹太,DEF,rotation,0,Only in Wikipedia / Gekisaka (undated)
+NGS,50,Ryosuke Shindo,進藤亮佑,DEF,rotation,0,Only in Wikipedia / Gekisaka (undated)
+NGS,5,Hotaru Yamaguchi,山口蛍,MID,starter,1,
+NGS,7,Kenshin Yasuda,保田堅心,MID,solid,1,
+NGS,8,Yuto Iwasaki,岩崎悠人,MID,starter,1,
+NGS,10,Matheus Jesus,マテウス・ジェズス,MID,star,1,
+NGS,14,Takumi Nagura,名倉巧,MID,solid,1,
+NGS,16,Emerson,エメルソン,MID,rotation,1,
+NGS,24,Riku Yamada,山田陸,MID,starter,1,
+NGS,34,Temu Matsumoto,松本天夢,MID,rotation,1,English spelling of name is a best guess
+NGS,41,Genki Hasegawa,長谷川元希,MID,solid,1,
+NGS,44,Haruho Nabeshima,鍋島暖歩,MID,fringe,1,English spelling of name is a best guess
+NGS,19,Takashi Sawada,澤田崇,MID,rotation,0,Only in Sportsnavi / Wikipedia
+NGS,20,Keita Nakamura,中村慶太,MID,rotation,0,Only in Sportsnavi / Wikipedia
+NGS,21,Diego Pituca,ディエゴ・ピトゥカ,MID,starter,0,Only in Sportsnavi / Wikipedia
+NGS,9,Thiago Santana,チアゴ・サンタナ,FWD,star,1,
+NGS,11,Norman Campbell,ノーマン・キャンベル,FWD,starter,1,
+NGS,18,Ryogo Yamasaki,山﨑凌吾,FWD,solid,0,Only in Wikipedia number history

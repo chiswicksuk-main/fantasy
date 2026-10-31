@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#0b3d2e">
+  <title>J1 Fantasy 2026/27</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">J1 Fantasy <span>26/27</span></div>
+    <div class="top-controls">
+      <select id="manager-select" aria-label="Active manager"></select>
+      <span id="gw-chip" class="chip"></span>
+    </div>
+  </header>
+
+  <main id="view" aria-live="polite">
+    <p class="loading">Loading players…</p>
+  </main>
+
+  <nav class="tabs" aria-label="Screens">
+    <button data-tab="squad">Squad</button>
+    <button data-tab="lineup">Lineup</button>
+    <button data-tab="results">Results</button>
+    <button data-tab="league">League</button>
+  </nav>
+
+  <div id="toast" role="status"></div>
+  <script src="app.js"></script>
+</body>
+</html>
